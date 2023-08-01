@@ -1,0 +1,11 @@
+.sidenav {
+  grid-area: sidenav;
+}
+
+.conteudo {
+  grid-area: conteudo;
+}
+
+.anuncios {
+  grid-area: anuncios;
+}

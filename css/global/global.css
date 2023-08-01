@@ -2,4 +2,52 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --first-color: #8844ee;
+  --second-color: #b07dfb;
+  --header-gradient: linear-gradient( 135deg, var(--first-color), var(--second-color) );
+  --body-color: #FAFBFC;
+  --container-color: #ffffff;
+  --text-color: #646464;
+}
+
+body {
+  background-color: var(--body-color);
+  font-family: 'Vollkorn', Georgia, serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: minmax(16rem, 1fr) 3fr 30rem;
+  grid-template-areas: 
+  'header header header'
+  'sidenav conteudo anuncios'
+  'footer footer footer';
+}
+
+.c-branco {
+  color: #ffffff;
+}
+.c-normal {
+  color: var(--text-color);
+}
+.c-principal {
+  color: var(--first-color);
 }

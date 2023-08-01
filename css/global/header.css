@@ -1,0 +1,22 @@
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
+  background: var(--header-gradient);
+  font-size: 3rem;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.darkmode {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+
+.menu-mobile {
+  display: none;
+}
