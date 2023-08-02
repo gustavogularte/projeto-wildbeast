@@ -18,6 +18,7 @@
 body {
   background-color: var(--body-color);
   font-family: 'Vollkorn', Georgia, serif;
+  font-size: 2rem;
 }
 
 html {
@@ -50,4 +51,13 @@ a {
 }
 .c-principal {
   color: var(--first-color);
+}
+.f-1 {
+  font-size: 2rem;
+}
+.f-2 {
+  font-size: 1.8rem;
+}
+.f-3 {
+  font-size: 1.4rem;
 }

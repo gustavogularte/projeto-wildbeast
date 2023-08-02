@@ -1,5 +1,15 @@
 .sidenav {
   grid-area: sidenav;
+  padding: 4rem;
+}
+
+.sidenav li {
+  display: block;
+  margin: 0 auto 4rem auto;
+  background-color: var(--container-color);
+  max-width: 14rem;
+  padding: 2rem;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
 }
 
 .conteudo {
