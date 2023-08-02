@@ -1,3 +1,11 @@
 .footer {
   grid-area: footer;
+  background: var(--header-gradient);
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer a:hover {
+  color: var(--first-color);
+  transition: .3s;
 }

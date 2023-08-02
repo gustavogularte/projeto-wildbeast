@@ -7,25 +7,34 @@
   padding: 2rem;
 }
 
-.header img {
+.header > a {
   max-width: 20rem;
 }
 
 .header-menu {
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
-.header-menu li {
+.header-menu a {
   background-color: var(--first-color);
   padding: 0.8rem 1.4rem;
   border-radius: 0.4rem;
 }
 
 .darkmode {
-  display: block;
-  background-color: transparent;
+  background-color: var(--first-color);
+  padding: 1.1rem 1.4rem;
+  border-radius: 0.4rem;
   border: none;
+  cursor: pointer;
+}
+
+.header-menu a:hover,
+.darkmode:hover {
+  background-color: #5e2fa5;
+  transition: .3s;
 }
 
 .menu-mobile {

@@ -9,13 +9,121 @@
   background-color: var(--container-color);
   max-width: 14rem;
   padding: 2rem;
-  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.4rem;
+}
+
+.sidenav li:hover {
+  background-color: var(--second-color);
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .conteudo {
   grid-area: conteudo;
+  background-color: var(--container-color);
+  box-shadow: var(--box-shadow);
+  padding: 4rem;
+}
+
+.conteudo-container {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.titulo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+}
+
+.titulo h1 {
+  font-size: 6rem;
+  line-height: 1.2;
+  justify-self: start;
+}
+
+.titulo h1 span {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.titulo-caracteristicas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.titulo-caracteristicas span {
+  display: block;
+  box-shadow: var(--box-shadow);
+}
+
+.numero {
+  background: var(--header-gradient);
+  font-size: 4.8rem;
+  padding: 0 1.2rem;
+  text-align: center;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.rotulo {
+  background-color: var(body-color);
+  text-align: center;
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+.img-1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+.conteudo-destaque {
+  max-width: 30ch;
+}
+
+.conteudo-citacao {
+  background: var(--header-gradient);
+  padding: 4rem 2rem;
+  border-radius: 0.4rem;
+  box-shadow: var(--box-shadow);
+}
+
+.conteudo-citacao p {
+  max-width: 36ch;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.conteudo-informacoes {
+  background: var(--header-gradient);
+  padding: 4rem;
+  box-shadow: var(--box-shadow);
+}
+
+.conteudo-informacoes-paragrafo p {
+  padding-bottom: 2rem;
+}
+
+.conteudo-informacoes li {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1.2rem;
+}
+
+.conteudo-informacoes li + li {
+  border-top: 0.2rem solid var(--second-color);
 }
 
 .anuncios {
   grid-area: anuncios;
+  padding: 4rem 2rem;
+}
+
+.anuncios a img {
+  padding-bottom: 2rem;
 }
