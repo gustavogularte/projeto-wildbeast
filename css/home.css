@@ -1,6 +1,6 @@
 .sidenav {
   grid-area: sidenav;
-  padding: 4rem;
+  padding: 4rem 2rem;
 }
 
 .sidenav button {
@@ -133,4 +133,22 @@
   align-content: start;
   padding: 4rem 2rem;
   gap: 2rem;
+}
+
+@media (max-width:800px) {
+  .sidenav {
+    padding: 4rem 2rem;
+    overflow-x: auto;
+  }
+
+  .sidenav ul {
+    display: flex;
+    gap: 2.8rem;
+  }
+  
+  .sidenav button {
+    margin: 0;
+    min-width: 10rem;
+    padding: 2rem;
+  }
 }

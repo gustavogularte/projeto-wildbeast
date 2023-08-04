@@ -39,7 +39,7 @@ a {
 
 .grid-layout {
   display: grid;
-  grid-template-columns: minmax(16rem, 1fr) 3fr 30rem;
+  grid-template-columns: minmax(18rem, 1fr) 3fr 30rem;
   grid-template-areas: 
   'header header header'
   'sidenav conteudo anuncios'
@@ -78,12 +78,38 @@ a {
 
 @media (max-width:1200px) {
   .grid-layout {
-    display: grid;
-    grid-template-columns: minmax(16rem, 1fr) 3fr;
     grid-template-areas: 
     'header header header'
     'sidenav conteudo conteudo'
     'sidenav anuncios anuncios'
     'footer footer footer';
+  }
+}
+
+@media (max-width:1000px) {
+  .f-4 {
+    font-size: 2.2rem;
+  }
+  .f-3 {
+    font-size: 1.8rem;
+  }
+  .f-2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:800px) {
+  .f-4 {
+    font-size: 2rem;
+  }
+
+  .grid-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'header'
+    'sidenav'
+    'conteudo'
+    'anuncios'
+    'footer';
   }
 }
