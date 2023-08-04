@@ -158,6 +158,11 @@
     padding: 2rem;
   }
 
+  .img-1, .img-2 {
+    max-width: 40rem;
+    justify-self: center;
+  }
+
   .conteudo-container {
     grid-template-columns: 1fr;
   }

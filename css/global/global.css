@@ -76,6 +76,13 @@ a {
   grid-column: 1/-1;
 }
 
+@keyframes drop-down {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+}
+
 @media (max-width:1200px) {
   .grid-layout {
     grid-template-areas: 
