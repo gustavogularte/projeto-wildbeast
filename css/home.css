@@ -42,13 +42,13 @@
 .titulo {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 2rem;
+  gap: 4rem;
+  justify-items: start;
 }
 
 .titulo h1 {
   font-size: 6rem;
   line-height: 1;
-  justify-self: start;
 }
 
 .titulo h1 span {
@@ -128,7 +128,7 @@
 .anuncios {
   grid-area: anuncios;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(14rem, 1fr));
   justify-content: space-around;
   align-content: start;
   padding: 4rem 2rem;
@@ -150,5 +150,25 @@
     margin: 0;
     min-width: 10rem;
     padding: 2rem;
+  }
+}
+
+@media (max-width:600px) {
+  .conteudo {
+    padding: 2rem;
+  }
+
+  .conteudo-container {
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo-destaque {
+    margin: 0 auto;
+  }
+
+  .titulo {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
   }
 }

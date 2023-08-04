@@ -113,3 +113,9 @@ a {
     'footer';
   }
 }
+
+@media (max-width:600px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+}
