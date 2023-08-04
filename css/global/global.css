@@ -75,3 +75,15 @@ a {
 .span-2 {
   grid-column: 1/-1;
 }
+
+@media (max-width:1200px) {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: minmax(16rem, 1fr) 3fr;
+    grid-template-areas: 
+    'header header header'
+    'sidenav conteudo conteudo'
+    'sidenav anuncios anuncios'
+    'footer footer footer';
+  }
+}

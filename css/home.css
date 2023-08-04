@@ -3,7 +3,7 @@
   padding: 4rem;
 }
 
-.sidenav li {
+.sidenav button {
   display: block;
   margin: 0 auto 4rem auto;
   background-color: var(--container-color);
@@ -11,12 +11,17 @@
   padding: 2rem;
   box-shadow: var(--box-shadow);
   border-radius: 0.4rem;
+  border: none;
 }
 
-.sidenav li:hover {
+.sidenav button:hover {
   background-color: var(--second-color);
   transition: 0.3s;
   cursor: pointer;
+}
+
+.sidenav button:focus {
+  outline: 0.2rem solid var(--first-color);
 }
 
 .conteudo {
@@ -42,7 +47,7 @@
 
 .titulo h1 {
   font-size: 6rem;
-  line-height: 1.2;
+  line-height: 1;
   justify-self: start;
 }
 
@@ -50,6 +55,7 @@
   display: block;
   font-style: italic;
   font-weight: 400;
+  padding-top: 0.8rem;
 }
 
 .titulo-caracteristicas {
@@ -121,9 +127,10 @@
 
 .anuncios {
   grid-area: anuncios;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(16rem, 1fr));
+  justify-content: space-around;
+  align-content: start;
   padding: 4rem 2rem;
-}
-
-.anuncios a img {
-  padding-bottom: 2rem;
+  gap: 2rem;
 }
