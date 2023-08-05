@@ -1,5 +1,5 @@
 export default class HeaderMenu {
-  constructor(menu, menuBotao, menuLinks) {
+  constructor(menu, menuBotao) {
     this.menu = document.querySelector(menu);
     this.menuBotao = document.querySelector(menuBotao);
 
@@ -8,7 +8,7 @@ export default class HeaderMenu {
 
   handleClick() {
     this.menu.classList.toggle('ativo');
-    if (this.menu.classList.contains("ativo")) {
+    if (this.menu.classList.contains('ativo')) {
       this.menuBotao.setAttribute('aria-expanded', true);
     } else {
       this.menuBotao.setAttribute('aria-expanded', false);
@@ -22,7 +22,6 @@ export default class HeaderMenu {
   init() {
     if (this.menuBotao) {
       this.addEvent();
-      this.ariaExpandedToggle();
     }
   }
 }

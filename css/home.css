@@ -78,7 +78,7 @@
 }
 
 .rotulo {
-  background-color: var(body-color);
+  background-color: var(--body-color);
   text-align: center;
   border-radius: 0 0 0.4rem 0.4rem;
 }

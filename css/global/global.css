@@ -22,6 +22,16 @@ body {
   color: var(--text-color);
 }
 
+body.darkTheme {
+  --first-color: #8844ee;
+  --second-color: #a46bfa;
+  --header-gradient: linear-gradient( 135deg, var(--first-color), var(--second-color) );
+  --body-color: #222222;
+  --container-color: #111111;
+  --text-color: #B0B0B0;
+  --box-shadow: 1px 1px 15px 0px rgba(255, 255, 255, 0.1);
+}
+
 html {
   font-size: 62.5%;
 }
