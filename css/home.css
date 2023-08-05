@@ -88,8 +88,15 @@
   align-self: end;
 }
 
+.img-2 {
+  max-height: 40rem;
+  object-fit: cover;
+  align-self: end;
+}
+
 .conteudo-destaque {
   max-width: 30ch;
+  align-self: end;
 }
 
 .conteudo-citacao {
@@ -110,6 +117,11 @@
   background: var(--header-gradient);
   padding: 4rem;
   box-shadow: var(--box-shadow);
+}
+
+.vulneravel {
+  color: #fffb14;
+  font-weight: 700;
 }
 
 .conteudo-informacoes-paragrafo p {
@@ -149,6 +161,10 @@
   .sidenav button {
     margin: 0;
     min-width: 10rem;
+    padding: 2rem;
+  }
+
+  .conteudo-informacoes {
     padding: 2rem;
   }
 }

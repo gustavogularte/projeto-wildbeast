@@ -68,11 +68,8 @@ a {
   color: var(--second-color);
 }
 
-.f-4 {
-  font-size: 2.4rem;
-}
 .f-3 {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 .f-2 {
   font-size: 1.8rem;
@@ -94,6 +91,7 @@ a {
 
 @media (max-width:1200px) {
   .grid-layout {
+    grid-template-columns: 1fr 5fr;
     grid-template-areas: 
     'header header header'
     'sidenav conteudo conteudo'
@@ -103,19 +101,13 @@ a {
 }
 
 @media (max-width:1000px) {
-  .f-4 {
-    font-size: 2.2rem;
-  }
   .f-3 {
-    font-size: 1.8rem;
-  }
-  .f-2 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
 }
 
 @media (max-width:800px) {
-  .f-4 {
+  .f-3 {
     font-size: 2rem;
   }
 
@@ -133,5 +125,9 @@ a {
 @media (max-width:600px) {
   .conteudo {
     grid-template-columns: 1fr;
+  }
+
+  .f-2 {
+    font-size: 1.6rem;
   }
 }
