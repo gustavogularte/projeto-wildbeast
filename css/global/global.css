@@ -23,8 +23,7 @@ body {
 }
 
 body.darkTheme {
-  --first-color: #8844ee;
-  --second-color: #a46bfa;
+  --second-color: #a06dee;
   --header-gradient: linear-gradient( 135deg, var(--first-color), var(--second-color) );
   --body-color: #222222;
   --container-color: #111111;
