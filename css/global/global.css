@@ -126,8 +126,4 @@ a {
   .conteudo {
     grid-template-columns: 1fr;
   }
-
-  .f-2 {
-    font-size: 1.6rem;
-  }
 }
