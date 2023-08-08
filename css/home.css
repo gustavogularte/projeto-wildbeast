@@ -14,7 +14,8 @@
   border: none;
 }
 
-.sidenav button:hover {
+.sidenav button:hover,
+.sidenav button.ativo {
   background-color: var(--second-color);
   transition: 0.3s;
   cursor: pointer;
