@@ -130,6 +130,11 @@
   font-weight: 700;
 }
 
+.perigo {
+  font-weight: 700;
+  color: #ff7e4b;
+}
+
 .conteudo-informacoes-paragrafo p {
   padding-bottom: 2rem;
 }
