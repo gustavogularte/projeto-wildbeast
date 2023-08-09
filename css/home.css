@@ -38,7 +38,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  animation: show .6s forwards;
+  animation: show .4s forwards;
 }
 
 .titulo {
