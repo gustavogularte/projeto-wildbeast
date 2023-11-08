@@ -5,15 +5,15 @@ function conteudo(animalURL) {
 
 function carregar(animalURL, main) {
   if (window.XMLHttpRequest) {
-     xmlhttp = new XMLHttpRequest();
+    xmlhttp = new XMLHttpRequest();
   } else {
     xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
   }
-   xmlhttp.onreadystatechange = function() {
+  xmlhttp.onreadystatechange = function () {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
       main.innerHTML = xmlhttp.responseText;
     }
-  }
+  };
   xmlhttp.open('GET', animalURL);
   xmlhttp.send();
 }
