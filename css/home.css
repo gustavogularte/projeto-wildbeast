@@ -156,6 +156,12 @@
   align-content: start;
   padding: 4rem 2rem;
   gap: 2rem;
+  text-align: center;
+}
+
+.anuncios img {
+  margin: 0 auto;
+  max-width: 22rem;
 }
 
 @media (max-width:800px) {
