@@ -8,9 +8,11 @@ Este é um projeto que deveria ser um projeto simples de grid do curso "CSS Grid
 
 As principais tecnologias usadas nesse projeto:
 
-- HTML
-- CSS
-- JavaScript
+`HTML`
+
+`CSS`
+
+`Javascript`
 
 ## 📖 **Descrição do Projeto**
 
@@ -20,5 +22,6 @@ O site fala sobre animais em risco de extinção, problemas ambientais e vários
 
 - Aqui está o site original - https://www.origamid.com/projetos/wildbeast/
 - Github pages - https://gustavogularte.github.io/projeto-wildbeast/
+- Linkedin - https://www.linkedin.com/in/gustavo-gularte-58742a286
 - Meu Twitter - https://twitter.com/gustavoGulArend
 - Meu perfil no Front End Mentor com mais desafios - https://www.frontendmentor.io/profile/gustavogularte
